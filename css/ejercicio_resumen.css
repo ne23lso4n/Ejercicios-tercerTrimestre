@@ -1,0 +1,72 @@
+
+h1{
+    text-align: center;
+}
+
+.parrafo{
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 12px;
+    background-color: bisque;
+    opacity: 0.5;
+}
+
+
+.parrafo:hover{
+    opacity: 1;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+pre{
+    background-color: black;
+    color: lime;
+    padding: 5px;
+}
+
+del{
+    color: red;
+}
+
+ins{
+    color: limegreen;
+}
+
+code{
+    background-color: white;
+    padding: 7px;
+}
+
+s{
+    color: grey;
+}
+
+/* pseudoselectores */
+
+/*
+•	:nth-child(odd) y :nth-child(even) para alternar colores de fondo entre párrafos. */
+
+
+.parrafo::first-line{
+    color: blue;
+    font-weight: bold;
+}
+
+.parrafo::before{
+    content: "📌";
+}
+
+.parrafo::selection{
+    background-color: black;
+    color: red;
+}
+
+.parrafo:nth-child(odd){
+    background-color: rgb(128, 200, 238);
+}
+
+
+.parrafo:nth-child(even){
+    background-color: rgb(213, 169, 209);
+}
+

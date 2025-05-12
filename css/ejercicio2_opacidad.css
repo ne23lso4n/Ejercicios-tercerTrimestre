@@ -1,0 +1,31 @@
+div{
+    background-color: rgb(249, 58, 17 );
+    padding: 10px;
+}
+
+
+.div1{
+    background-color: rgb(249, 58, 17, 0.1 );
+}
+
+.div2{
+    background-color: rgb(249, 58, 17, 0.3 );
+}
+
+.div3{
+    background-color: rgb(249, 58, 17, 0.6 );
+}
+
+.div4{
+    opacity: 0.1;
+}
+
+
+.div5{
+    opacity: 0.3;
+}
+
+
+.div6{
+    opacity: 0.6;
+}

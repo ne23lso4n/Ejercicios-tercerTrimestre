@@ -1,0 +1,233 @@
+/* p:first-child{
+    color: red;
+} */
+
+/* p:first-child i{
+    color: red;
+} */
+
+/* i:first-child{
+    color: red;
+} */
+
+/* li:first-child{
+    background-color: yellow;
+} */
+
+
+/* p::first-letter{
+   font-size: 200%; 
+   color: blueviolet;
+} */
+
+
+/* .p{
+    text-align: justify;
+    border: 1px solid black;
+} */
+
+/* p::first-line{
+    background-color: yellow;
+} */
+
+/* p:first-of-type{
+    background-color: red;
+} */
+
+/* input:focus{
+    background-color: yellow
+} */
+
+/* p:hover,h1:hover,a:hover {
+    background-color: yellow;
+} */
+
+/* div{
+    background-color: yellow;
+    display: none;
+    padding: 20px;
+}
+
+span:hover + div{
+    display: block;
+} */
+
+
+/* p:lang(it){
+    background-color: yellow;
+} */
+
+
+/* p:last-child, li:last-child{
+    background-color: chartreuse;
+} */
+
+/* p:last-of-type{
+    background-color: chartreuse;
+} */
+
+
+ /* li:last-child{
+    background-color: chartreuse;
+} */
+
+/* li:last-of-type{
+    background-color: chartreuse;
+}  */
+
+
+/* ::marker{
+    color: red;
+} */
+ 
+
+/* p{
+    color: blue;
+}
+
+:not(p){
+    color: red;
+} */
+
+
+/* div:nth-child(2){
+    background-color: red;
+    color: white;
+}
+
+li:nth-child(3){
+    background-color: blue;
+    color: white;
+} */
+
+
+/* li:nth-child(odd){
+    background-color: brown;
+    color: azure;
+}
+
+li:nth-child(even){
+    background-color: aqua;
+} */
+
+/* li:nth-child(3n){
+    background-color: aqua;
+} */
+
+/* li:only-child{
+    background-color: aqua;
+} */
+
+/* input:optional{
+    background-color: yellow;
+} */
+
+
+/* input:out-of-range{
+    border: 2px solid red;
+} */
+
+/* ::placeholder{
+    color: red;
+} */
+
+
+/* input:read-only{
+    background-color: yellow;
+}
+
+input[type=number]{
+    background-color: red;
+} */
+
+/* input:required{
+    background-color: yellow;
+} */
+
+/* :root{
+    background-color: aqua;
+} */
+
+/* ::selection{
+    color: red;
+    background-color: yellow;
+}
+
+p::selection{
+    color: white;
+    background-color: black;
+} */
+
+
+/* :target{
+    border: 2px solid green;
+    background-color: brown;
+} */
+
+
+/* .enlaces div{
+    display: none;
+}
+
+
+.enlaces div:target{
+    display: block;
+} 
+
+#enlace2{
+    background-color: red;
+    color: white;
+    width: 40%;
+}
+
+#enlace3{
+    background-color: blue;
+    color: white;
+    width: 30%;
+}
+
+
+#enlace4{
+    background-color: gray;
+    width: 20%;
+} */
+
+/* input:valid{
+    background-color: green;
+} */
+
+/* :empty{
+    border: 2px solid orangered;
+    height: 10px;
+}
+
+p:empty{
+    border: 2px solid goldenrod;
+    height: 20px;
+} */
+
+
+/* input:enabled{
+    background-color: red;
+}
+
+input[type=text]:disabled{
+    background-color: blue;
+} */
+
+/* p::before{
+    content: "Datos:--";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+} */
+
+/* div[class*= "div"]{
+    font-size: 20px;
+    background-color: aquamarine;
+} */
+
+[class*= "div"]{
+    font-size: 20px;
+    background-color: aquamarine;
+}
